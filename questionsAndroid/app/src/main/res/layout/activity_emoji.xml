@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="90dp"
+    
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical"
+    
+    >
+    
+    
+    
+    <TextView
+    
+    android:layout_width="match_parent"
+    
+    android:layout_height="20dp"
+    
+    android:layout_marginTop="10dp"
+    
+    android:layout_marginBottom="10dp"
+    
+    android:gravity="center_horizontal"
+    
+    android:textSize="15sp"
+    
+    android:text="Choose your favourite emoji!"
+
+    
+    android:textColor="#7a7a7a"/>
+    
+    
+    
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        
+        android:layout_height="wrap_content"
+        
+        android:gravity="center_vertical|center_horizontal"
+        
+        >
+        
+        
+        
+        <ImageButton
+        
+        android:id="@+id/cool"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        
+        android:src="@drawable/cool"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        
+        
+        <ImageButton
+        
+        android:id="@+id/cry"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/cry"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        
+        
+        <ImageButton
+        
+        android:id="@+id/biggrin"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/biggrin"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        
+        
+        <ImageButton
+        
+        android:id="@+id/confused"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/confused"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/eek"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/eek"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/evil"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/evil"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/lol"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/lol"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        
+        
+        <ImageButton
+        
+        android:id="@+id/love"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/love"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/mad"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/mad"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/mrgreen"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/mrgreen"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/neutral"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/neutral"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/question"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/question"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/razz"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/razz"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/rolleyes"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/rolleyes"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/sad"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/sad"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/smile"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/smile"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/surprised"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:src="@drawable/surprised"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/thumbdown"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/thumbdown"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/thumbup"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/thumbup"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/twisted"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/twisted"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        <ImageButton
+        
+        android:id="@+id/wink"
+        
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        
+        android:src="@drawable/wink"
+        
+        android:background="#ffffff"
+        
+        />
+        
+        
+        
+        
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>
+
